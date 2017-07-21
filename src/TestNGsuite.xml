@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Newtours Flights">
+  <test name="Booking a flight in Demo tours">
+    <classes>
+	  <class name="com.frameworks.testsuite.BrowserClass"/>
+      <class name="com.frameworks.testsuite.LoginNewTours"/>
+      <class name="com.frameworks.testsuite.FlightFinder"/>
+	  <class name="com.frameworks.testsuite.SelectFlight"/>
+      <class name="com.frameworks.testsuite.BookFlight"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
